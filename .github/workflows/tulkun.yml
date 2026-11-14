@@ -17,18 +17,10 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Generate Tulkun GIF and PNG
+      - name: Generate and publish Tulkun
         uses: PramudithaN/git-tulkun@v1
         with:
           login: ${{ github.repository_owner }}
           view: side
           canon: "false"
-          output-dir: tulkun
-
-      - name: Commit and push updated Tulkun
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add tulkun/tulkun.gif tulkun/tulkun.png tulkun/preview.html
-          git diff --cached --quiet || git commit -m "chore: update Tulkun from latest GitHub activity"
-          git push
+          commit: "true"
