@@ -14,3 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/simran475/simran475/output/tulkun/tulkun.gif" width="640" alt="My Tulkun" />
+</p>
