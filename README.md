@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/simran475/simran475/snake-output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/simran475/simran475/snake-output/github-snake.svg" />
-  <img alt="snake animation" src="https://raw.githubusercontent.com/simran475/simran475/snake-output/github-snake.svg" />
-</picture>
+
 
 <!--
 **simran475/simran475** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -23,3 +19,8 @@ Here are some ideas to get you started:
 <p align="center">
   <img src="https://raw.githubusercontent.com/simran475/simran475/output/tulkun/tulkun.gif" width="640" alt="My Tulkun" />
 </p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/simran475/simran475/snake-output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/simran475/simran475/snake-output/github-snake.svg" />
+  <img alt="snake animation" src="https://raw.githubusercontent.com/simran475/simran475/snake-output/github-snake.svg" />
+</picture>
